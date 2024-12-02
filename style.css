@@ -1,0 +1,190 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure links and buttons are styled when focused or active */
+a:focus,
+a:active {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+/* Header Styles */
+.header-section {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 15px 0; 
+}
+
+.header-section .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-section .col-lg-6 {
+  display: flex;
+  align-items: center;
+}
+
+.header-section .fa-solid {
+  font-size: 32px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.header-section .school-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header-section .col-lg-6 .row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-section .row .col-lg-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.header-section .row a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.header-section .row a:hover {
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  color: white;
+  border-color: #ee0979;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Features Section */
+.feature-card {
+  transition: transform 0.2s;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #0d6efd;
+}
+
+/* Hero Section */
+.home-hero {
+  background-image: url("./images/school-hero.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  filter: grayscale(10%);
+}
+
+.home-hero .hero-text {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Reduced opacity for more transparency */
+  padding: 30px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for card effect */
+}
+
+.home-hero .hero-text h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.home-hero .hero-text p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+/* About Section */
+.about {
+  background-color: #f4f4f4;
+  padding: 80px 0;
+}
+
+.about h2 {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: black;
+  max-width: 500px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.about .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-img {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Extracurricular Activities */
+.activity {
+  background-image: url("./images/activity.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.activity-cards .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for cards */
+.activity-cards .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Card icons */
+.activity-cards .card-body i {
+  color: #007bff;
+}
+
+
+
+/* Footer */
+
+
+

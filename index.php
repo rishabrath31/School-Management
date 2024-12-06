@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,17 +8,32 @@
   <?php include("includes/header.php") ?>
 
   <!-- =====================================HERO-SECTION========================================================== -->
-  <section class="home-hero">
+  <section class="hero d-flex align-items-center">
     <div class="container">
-      <div class="hero-text">
-        <h2>Welcome to School Management System</h2>
-        <p>
-          Experience the future of education management. Easily track student
-          progress, manage grades efficiently, and stay connected with
-          parents, teachers, and students seamlessly. Empowering schools with
-          innovative tools for better communication and streamlined
-          operations.
-        </p>
+      <div class="row">
+        <div class="col-md-6 text-left">
+          <h1>Transform Your School Management Experience</h1>
+          <p>
+            Streamline operations, enhance communication, and empower
+            educators with our all-in-one CRM solution.
+          </p>
+          <ul>
+            <li>User-Friendly Interface</li>
+            <li>Real-Time Communication</li>
+            <li>Comprehensive Reporting</li>
+            <li>Customizable Modules</li>
+            <li>Secure Data Management</li>
+          </ul>
+          <a href="#demo" class="btn btn-primary">Request a Demo</a>
+        </div>
+        <div class="col-md-6">
+          <div class="img-hero">
+            <img
+              src="./images/123.png"
+              alt="School Management Application"
+              class="img-fluid" />
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -168,13 +184,13 @@
             data-wow-delay="0ms"
             data-wow-duration="1500ms">
             <div class="image">
-              <img src="./images/lib.png" alt="library" />
+              <img src="./images/lib1.png" alt="library" />
               <div class="overlay-box">
-                <div class="year-box">
+                <!-- <div class="year-box">
                   <span class="number">📚</span>Years <br />
                   Experience <br />
                   Transforming Schools
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -186,7 +202,7 @@
   <!-- ====================================ACTIVITY-SECTION====================================================== -->
   <section class="activity mb-5">
     <div class="container py-5">
-      <h2 class="text-center mb-4">Extracurricular Activities</h2>
+      <h2 class="text-center mb-4" style="color:white">Extracurricular Activities</h2>
       <div class="row text-center activity-cards">
         <!-- Sports Card -->
         <div class="col-lg-3 col-md-6 mb-4">
@@ -293,7 +309,7 @@
       </div>
     </div>
   </section>
-  
+
   <!-- ====================================7-DYAS-TRAIL-SECTION======================================================== -->
   <div class="trial mb-5">
     <section class="trial-section">
@@ -310,5 +326,119 @@
       </div>
     </section>
   </div>
+
+  <!-- PRICE SECTION -->
+  <section class="price-section">
+
+    <div class="container">
+      <div class="pricing-header">
+        <h2 class="text-center">Choose Flexible Pricing Plan
+        </h2>
+        <p class="text-center">Discover our adaptable pricing options designed to suit your specific business needs and budget.
+
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card text-center price-card">
+            <div class="title">
+              <i class="fa fa-paper-plane" aria-hidden="true"></i>
+              <h2>Basic</h2>
+            </div>
+            <div class="price">
+              <h4><sup>₹</sup>25</h4>
+            </div>
+            <div class="option">
+              <ul>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i> 10 GB Space
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i> 3 Domain
+                  Names
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i> 20 Email
+                  Address
+                </li>
+                <li>
+                  <i class="fa fa-times" aria-hidden="true"></i> Live
+                  Support
+                </li>
+              </ul>
+            </div>
+            <a href="#">Order Now </a>
+          </div>
+        </div>
+        <!-- END Col one -->
+        <div class="col-sm-4">
+          <div class="card text-center price-card">
+            <div class="title">
+              <i class="fa fa-plane" aria-hidden="true"></i>
+              <h2>Standard</h2>
+            </div>
+            <div class="price">
+              <h4><sup>₹</sup>50</h4>
+            </div>
+            <div class="option">
+              <ul>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i> 50 GB Space
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i> 5 Domain
+                  Names
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i> Unlimited
+                  Email Address
+                </li>
+                <li>
+                  <i class="fa fa-times" aria-hidden="true"></i> Live
+                  Support
+                </li>
+              </ul>
+            </div>
+            <a href="#">Order Now </a>
+          </div>
+        </div>
+        <!-- END Col two -->
+        <div class="col-sm-4">
+          <div class="card text-center price-card">
+            <div class="title">
+              <i class="fa fa-rocket" aria-hidden="true"></i>
+              <h2>Premium</h2>
+            </div>
+            <div class="price">
+              <h4><sup>₹</sup>100</h4>
+            </div>
+            <div class="option">
+              <ul>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i> Unlimited
+                  GB Space
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i> 30 Domain
+                  Names
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i> Unlimited
+                  Email Address
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i> Live
+                  Support
+                </li>
+              </ul>
+            </div>
+            <a href="#">Order Now </a>
+          </div>
+        </div>
+        <!-- END Col three -->
+      </div>
+    </div>
+
+  </section>
 
   <?php include("includes/footer.php") ?>

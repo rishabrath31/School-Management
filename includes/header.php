@@ -20,32 +20,41 @@
 
 
 
-  <header class="header-section">
-    <div class="container">
-      <div class="row">
-        <!-- Left Section for Logo and School Name -->
-        <div class="col-lg-6">
-          <div class="header-name">
-          
-          <h2><i class="fa-solid fa-book"></i> School Management</h2>
+<header class="main-header bg-black text-white">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left Column (Logo) -->
+      <div class="col-lg-6">
+        <a class="navbar-brand fw-bold text-white" href="#">School<span class="management">Managemnt<span></a>
+      </div>
+      <!-- Right Column (Menu) -->
+      <div class="col-lg-6">
+        <nav class="navbar navbar-expand-lg">
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars" style="color: #98fbe7;"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.php">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#academic">Academic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.php">Contact</a>
+              </li>
+            </ul>
           </div>
-        </div>
-
-        <!-- Hamburger Icon -->
-        <div class="hamburger">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-
-        <!-- Right Section for Navigation -->
-        <div class="col-lg-6">
-          <div class="row-nav">
-            <div class="col-lg-2"><a href="index.php">Home</a></div>
-            <div class="col-lg-2"><a href="#about">About</a></div>
-            <div class="col-lg-2"><a href="#features">Features</a></div>
-            <div class="col-lg-2"><a href="#academic">Academic</a></div>
-            <div class="col-lg-2"><a href="contact.php">Contact</a></div>
-          </div>
-        </div>
+        </nav>
       </div>
     </div>
-  </header>
+  </div>
+</header>
+
